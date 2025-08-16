@@ -1,0 +1,127 @@
+date,description,amount,type,channel,counterparty,currency,account_name,account_number,institution,running_balance
+2025-05-01,Farmácia Popular,-271.9,DEBIT,PIX,Farmácia Popular,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2228.1
+2025-05-03,Faculdade UERJ,-40.32,DEBIT,Boleto,Faculdade UERJ,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2187.78
+2025-05-03,Padaria Central,-33.57,DEBIT,PIX,Padaria Central,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2154.21
+2025-05-03,Academia Fit+,-117.13,DEBIT,Saque,Academia Fit+,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2037.08
+2025-05-04,Transferência Fulano,292.09,CREDIT,App,Transferência Fulano,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2329.17
+2025-05-04,Estorno de Compra,35.0,CREDIT,App,Operadora Cartão,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2364.17
+2025-05-05,Pagamento de Aluguel,-1800.0,DEBIT,TED,Imobiliária Boa Casa,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,564.17
+2025-05-06,Crédito de Salário,5200.0,CREDIT,PIX,Empresa XYZ LTDA,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5764.17
+2025-05-07,Supermercado Bom Preço,-234.67,DEBIT,Cartão Débito,Supermercado Bom Preço,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5529.5
+2025-05-08,Estacionamento Rotativo,-47.22,DEBIT,Cartão Débito,Estacionamento Rotativo,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5482.28
+2025-05-09,Vivo Fatura,-44.73,DEBIT,PIX,Vivo Fatura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5437.55
+2025-05-10,Internet Fibra 500MB,-119.9,DEBIT,Boleto,Operadora NetFácil,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5317.65
+2025-05-11,TIM Fatura,-130.93,DEBIT,Saque,TIM Fatura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5186.72
+2025-05-12,Assinatura Netflix,-39.9,DEBIT,Cartão Crédito,Netflix.com,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5146.82
+2025-05-12,Seguro Auto,-24.82,DEBIT,Saque,Seguro Auto,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,5122.0
+2025-05-15,Conta de Luz,-234.55,DEBIT,Boleto,Light Energia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4887.45
+2025-05-15,Padaria Lisboa,-406.53,DEBIT,Cartão Crédito,Padaria Lisboa,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4480.92
+2025-05-16,Uber *Trip,-339.75,DEBIT,PIX,Uber *Trip,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4141.17
+2025-05-16,Academia Fit+,-64.51,DEBIT,Cartão Crédito,Academia Fit+,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4076.66
+2025-05-19,Seguro Auto,-52.23,DEBIT,Cartão Crédito,Seguro Auto,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4024.43
+2025-05-19,Light Energia,-75.76,DEBIT,Cartão Crédito,Light Energia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3948.67
+2025-05-19,Estacionamento Rotativo,-310.45,DEBIT,PIX,Estacionamento Rotativo,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3638.22
+2025-05-20,Conta de Água,-88.7,DEBIT,Boleto,CEDAE,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3549.52
+2025-05-21,Eletrônicos Silva,-193.89,DEBIT,Cartão Débito,Eletrônicos Silva,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3355.63
+2025-05-21,Cedae,-409.85,DEBIT,Cartão Crédito,Cedae,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2945.78
+2025-05-22,Academia Fit+,-51.58,DEBIT,Cartão Crédito,Academia Fit+,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2894.2
+2025-05-23,Restaurante Sabor & Cia,-101.61,DEBIT,Cartão Crédito,Restaurante Sabor & Cia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2792.59
+2025-05-23,Estacionamento Rotativo,-39.16,DEBIT,PIX,Estacionamento Rotativo,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2753.43
+2025-05-23,Estorno de Compra,64.36,CREDIT,App,Operadora Cartão,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2817.79
+2025-05-27,Serviço de Streaming,-330.91,DEBIT,Boleto,Serviço de Streaming,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2486.88
+2025-05-28,Padoca do Zé,-43.51,DEBIT,Cartão Débito,Padoca do Zé,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2443.37
+2025-05-30,Tarifa Bancária,-12.9,DEBIT,App,Banco Exemplo S.A.,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2430.47
+2025-05-31,Impostos Municipais,-135.08,DEBIT,Saque,Impostos Municipais,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2295.39
+2025-06-01,Farmácia Popular,-177.14,DEBIT,Saque,Farmácia Popular,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2118.25
+2025-06-01,Estorno de Compra,56.15,CREDIT,App,Operadora Cartão,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2174.4
+2025-06-03,Impostos Municipais,-73.1,DEBIT,Saque,Impostos Municipais,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2101.3
+2025-06-03,Bônus - Empresa XYZ,78.08,CREDIT,TED,Empresa XYZ,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2179.38
+2025-06-04,Cursos Online,-404.83,DEBIT,Boleto,Cursos Online,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1774.55
+2025-06-05,Pagamento de Aluguel,-1800.0,DEBIT,TED,Imobiliária Boa Casa,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-25.45
+2025-06-06,Supermercado Bom Preço,-189.67,DEBIT,PIX,Supermercado Bom Preço,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-215.12
+2025-06-06,Crédito de Salário,5200.0,CREDIT,PIX,Empresa XYZ LTDA,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4984.88
+2025-06-07,Estacionamento Rotativo,-76.0,DEBIT,Cartão Crédito,Estacionamento Rotativo,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4908.88
+2025-06-08,Mercado Livre,-65.88,DEBIT,Boleto,Mercado Livre,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4843.0
+2025-06-08,Padoca do Zé,-95.78,DEBIT,Saque,Padoca do Zé,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4747.22
+2025-06-09,Netflix.com,-374.12,DEBIT,Cartão Crédito,Netflix.com,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4373.1
+2025-06-09,Delivery App,-69.34,DEBIT,Saque,Delivery App,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4303.76
+2025-06-09,iFood *Pedido,-48.5,DEBIT,Cartão Crédito,iFood *Pedido,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4255.26
+2025-06-09,Tarifa Bancária,-12.9,DEBIT,App,Banco Exemplo S.A.,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4242.36
+2025-06-10,Internet Fibra 500MB,-119.9,DEBIT,Boleto,Operadora NetFácil,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,4122.46
+2025-06-11,Oficina Mecânica,-201.52,DEBIT,PIX,Oficina Mecânica,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3920.94
+2025-06-12,Assinatura Netflix,-39.9,DEBIT,Cartão Crédito,Netflix.com,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3881.04
+2025-06-12,Padaria Central,-127.29,DEBIT,PIX,Padaria Central,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3753.75
+2025-06-12,Zé Delivery,-29.56,DEBIT,Cartão Débito,Zé Delivery,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3724.19
+2025-06-12,Estorno de Compra,176.35,CREDIT,App,Operadora Cartão,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3900.54
+2025-06-13,Livraria Cultura,-39.71,DEBIT,PIX,Livraria Cultura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3860.83
+2025-06-13,Serviço de Streaming,-357.9,DEBIT,PIX,Serviço de Streaming,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3502.93
+2025-06-14,Farmácia Popular,-198.38,DEBIT,Boleto,Farmácia Popular,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3304.55
+2025-06-14,Mercado Livre,-402.77,DEBIT,Cartão Crédito,Mercado Livre,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2901.78
+2025-06-14,Cursos Online,-49.28,DEBIT,Boleto,Cursos Online,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2852.5
+2025-06-14,Tarifa Bancária,-12.9,DEBIT,App,Banco Exemplo S.A.,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2839.6
+2025-06-15,Conta de Luz,-234.55,DEBIT,Boleto,Light Energia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2605.05
+2025-06-15,DROGASIL,-122.91,DEBIT,Cartão Crédito,DROGASIL,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2482.14
+2025-06-16,Light Energia,-361.8,DEBIT,Boleto,Light Energia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2120.34
+2025-06-16,IPVA,-55.28,DEBIT,PIX,IPVA,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2065.06
+2025-06-16,Academia Fit+,-176.78,DEBIT,PIX,Academia Fit+,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1888.28
+2025-06-17,Uber *Trip,-58.03,DEBIT,PIX,Uber *Trip,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1830.25
+2025-06-17,Transferência Fulano,243.61,CREDIT,PIX,Transferência Fulano,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2073.86
+2025-06-18,Delivery App,-26.64,DEBIT,Cartão Débito,Delivery App,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2047.22
+2025-06-18,Salário - Empresa XYZ,346.66,CREDIT,PIX,Empresa XYZ,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2393.88
+2025-06-20,Conta de Água,-88.7,DEBIT,Boleto,CEDAE,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2305.18
+2025-06-21,Livraria Cultura,-123.21,DEBIT,Saque,Livraria Cultura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2181.97
+2025-06-22,Seguro Residencial,-30.39,DEBIT,Boleto,Seguro Residencial,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2151.58
+2025-06-22,Estorno de Compra,160.66,CREDIT,App,Operadora Cartão,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2312.24
+2025-06-23,Impostos Municipais,-18.74,DEBIT,Cartão Crédito,Impostos Municipais,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2293.5
+2025-06-24,Posto Shell,-29.15,DEBIT,PIX,Posto Shell,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2264.35
+2025-06-25,Vivo Fatura,-62.32,DEBIT,PIX,Vivo Fatura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2202.03
+2025-06-26,Consultas Médicas,-52.55,DEBIT,Boleto,Consultas Médicas,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2149.48
+2025-06-26,Impostos Municipais,-83.46,DEBIT,Cartão Débito,Impostos Municipais,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2066.02
+2025-06-27,Uber *Trip,-297.67,DEBIT,Boleto,Uber *Trip,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1768.35
+2025-06-28,Consultas Médicas,-26.35,DEBIT,PIX,Consultas Médicas,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1742.0
+2025-06-28,Tarifa Bancária,-12.9,DEBIT,App,Banco Exemplo S.A.,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1729.1
+2025-06-29,Eletrônicos Silva,-48.21,DEBIT,Cartão Débito,Eletrônicos Silva,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1680.89
+2025-06-29,Serviço de Streaming,-45.2,DEBIT,Boleto,Serviço de Streaming,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1635.69
+2025-07-01,Mercado Livre,-57.94,DEBIT,Boleto,Mercado Livre,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1577.75
+2025-07-02,Padoca do Zé,-154.34,DEBIT,Boleto,Padoca do Zé,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1423.41
+2025-07-03,Laboratório Exames,-50.62,DEBIT,Boleto,Laboratório Exames,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1372.79
+2025-07-03,DROGASIL,-35.14,DEBIT,Cartão Crédito,DROGASIL,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1337.65
+2025-07-05,Pagamento de Aluguel,-1800.0,DEBIT,TED,Imobiliária Boa Casa,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-462.35
+2025-07-05,Consultas Médicas,-366.21,DEBIT,PIX,Consultas Médicas,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-828.56
+2025-07-05,Correios,-30.8,DEBIT,PIX,Correios,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-859.36
+2025-07-05,Faculdade UERJ,-486.34,DEBIT,Boleto,Faculdade UERJ,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-1345.7
+2025-07-06,Oficina Mecânica,-36.21,DEBIT,Cartão Débito,Oficina Mecânica,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-1381.91
+2025-07-07,99 *Corrida,-40.22,DEBIT,Cartão Débito,99 *Corrida,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-1422.13
+2025-07-07,Crédito de Salário,5200.0,CREDIT,DOC,Empresa XYZ LTDA,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3777.87
+2025-07-08,Eletrônicos Silva,-32.74,DEBIT,Boleto,Eletrônicos Silva,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3745.13
+2025-07-08,Livraria Cultura,-392.48,DEBIT,Cartão Débito,Livraria Cultura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3352.65
+2025-07-08,Cursos Online,-298.94,DEBIT,PIX,Cursos Online,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,3053.71
+2025-07-09,Faculdade UERJ,-373.66,DEBIT,Saque,Faculdade UERJ,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2680.05
+2025-07-10,Internet Fibra 500MB,-119.9,DEBIT,Boleto,Operadora NetFácil,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2560.15
+2025-07-12,Assinatura Netflix,-39.9,DEBIT,Cartão Crédito,Netflix.com,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2520.25
+2025-07-12,Correios,-147.96,DEBIT,Cartão Débito,Correios,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2372.29
+2025-07-15,Conta de Luz,-234.55,DEBIT,Boleto,Light Energia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2137.74
+2025-07-15,Correios,-30.63,DEBIT,PIX,Correios,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2107.11
+2025-07-15,Seguro Auto,-280.81,DEBIT,Saque,Seguro Auto,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1826.3
+2025-07-17,TIM Fatura,-31.35,DEBIT,PIX,TIM Fatura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1794.95
+2025-07-17,Transferência Fulano,212.24,CREDIT,TED,Transferência Fulano,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,2007.19
+2025-07-18,Mercado Livre,-251.85,DEBIT,Boleto,Mercado Livre,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1755.34
+2025-07-18,Zé Delivery,-311.72,DEBIT,Saque,Zé Delivery,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,1443.62
+2025-07-19,Laboratório Exames,-523.2,DEBIT,Cartão Crédito,Laboratório Exames,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,920.42
+2025-07-19,Netflix.com,-210.8,DEBIT,Cartão Débito,Netflix.com,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,709.62
+2025-07-20,Conta de Água,-88.7,DEBIT,Boleto,CEDAE,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,620.92
+2025-07-20,Netflix.com,-64.53,DEBIT,Saque,Netflix.com,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,556.39
+2025-07-22,Vivo Fatura,-414.05,DEBIT,Cartão Débito,Vivo Fatura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,142.34
+2025-07-23,Padoca do Zé,-53.99,DEBIT,Saque,Padoca do Zé,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,88.35
+2025-07-24,Posto Shell,-335.46,DEBIT,PIX,Posto Shell,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-247.11
+2025-07-24,Impostos Municipais,-23.05,DEBIT,Cartão Crédito,Impostos Municipais,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-270.16
+2025-07-25,Mercado Livre,-300.63,DEBIT,Boleto,Mercado Livre,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-570.79
+2025-07-25,Impostos Municipais,-45.94,DEBIT,Saque,Impostos Municipais,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-616.73
+2025-07-25,Reembolso Despesas,262.1,CREDIT,DOC,Reembolso Despesas,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-354.63
+2025-07-25,Estorno de Compra,173.84,CREDIT,App,Operadora Cartão,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-180.79
+2025-07-26,iFood *Pedido,-47.41,DEBIT,Saque,iFood *Pedido,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-228.2
+2025-07-27,Faculdade UERJ,-22.51,DEBIT,Saque,Faculdade UERJ,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-250.71
+2025-07-28,Restaurante Sabor & Cia,-177.66,DEBIT,Cartão Crédito,Restaurante Sabor & Cia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-428.37
+2025-07-28,Restaurante Sabor & Cia,-48.32,DEBIT,Cartão Crédito,Restaurante Sabor & Cia,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-476.69
+2025-07-30,TIM Fatura,-102.88,DEBIT,Saque,TIM Fatura,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-579.57
+2025-07-30,Padaria Lisboa,-73.89,DEBIT,Cartão Débito,Padaria Lisboa,BRL,Conta Corrente,1234-***-9,Banco Exemplo S.A.,-653.46

@@ -1,0 +1,6 @@
+class Cores:
+
+    VERDE = '#008000'
+    VERDE_CLARO = '#90EE90'
+    AMARELO = '#FFFF00'
+    AMARELO_CLARO = '#FFFFC5'
