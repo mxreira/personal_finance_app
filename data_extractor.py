@@ -1,27 +1,16 @@
 import pandas as pd
 from datetime import datetime
 
-df = pd.read_csv(r'C:\Users\Gabriel\Documents\Main_Python\new\personal_finance_app\bd\extrato_bancario_base.csv')
 
-df_counterparty = df[['counterparty','amount']]
-grouped_df = df_counterparty.groupby('counterparty').sum()
-sorted_df = df.sort_values('amount',ascending=True)
 
-descricoes = df['description']
-
-most_commom_counterparty = df['counterparty'].mode()[0]
-
-biggest_credit_amount = float(sorted_df.iloc[-1].amount)
-biggest_credit_counterparty = str(sorted_df.iloc[-1].counterparty)
-
-biggest_debit_amount = float(sorted_df.iloc[0].amount)
-biggest_debit_counterparty = str(sorted_df.iloc[0].counterparty)
 
 
 class Extracted_Data:
-    df
+    df = pd.read_csv(r'C:\Users\Gabriel\Documents\Main_Python\new\personal_finance_app\bd\extrato_bancario_base.csv')
     df_counterparty = df[['counterparty','amount']]
     grouped_df = df_counterparty.groupby('counterparty').sum().sort_values('amount',ascending=True)
+    top_5_outcome_counterparties_df = grouped_df[:5].reset_index()
+    top_5_income_counterparties_df = grouped_df[-5:].reset_index()
     sorted_df = df.sort_values('amount',ascending=True)
     date_sorted_df = df.sort_values('date',ascending=True)
     
@@ -44,5 +33,9 @@ class Extracted_Data:
     period_amount = df['amount'].sum()
 
     current_balance = float(df['running_balance'].iloc[-1])
+
+    most_transactions_date_date = df['date'].mode()[0]
+
+    most_transactions_date_count = df['date'].value_counts().get(most_transactions_date_date,0)
 
     
