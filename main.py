@@ -63,12 +63,41 @@ def sync_nav(default="Dashboard"):
 # ---------- Páginas ----------
 @page("Dashboard")
 def render_dashboard():
-    st.header("Dashboard")
-    st.write("KPIs, cards, gráficos…")
-    col1, col2, col3 = st.columns(3,vertical_alignment='center')
+    
+    st.markdown("<h1 style='text-align: center; color: black;'>📊Dashboard</h1>",unsafe_allow_html=True)
+    
+    st.markdown("<h6 style='text-align: center; color: black;'>KPIs, cards, charts…</h6>",unsafe_allow_html=True)
+    col1, col2, col3 = st.columns(3, vertical_alignment="center")
+
+    def categorizar():
+        st.session_state["msg"] = "Dados categorizados com sucesso!"
+
+
+    # CSS para estilizar botão
+    st.markdown("""
+    <style>
+    div[data-testid="stButton"] > button {
+        background-color: #2E7D32;
+        color: white;
+        font-weight: bold;
+        border-radius: 8px;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+    }
+    div[data-testid="stButton"] > button:hover {
+        background-color: #1b5e20;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    col1, col2, col3 = st.columns(3)
+
     with col2:
-        
-        st.button(label='Categorizar dados')
+        st.button("Categorizar dados", on_click=categorizar)
+
+    if "msg" in st.session_state:
+        st.success(st.session_state["msg"])
 
 
 
@@ -81,7 +110,7 @@ def render_dashboard():
 
     with column1:
         st.markdown(f'''
-                        <div style="background-color:{Cores.CINZA_30}; border-radius:12px; overflow:hidden;">
+                        <div style="background-color:{Cores.AMARELO_CLARO_70}; border-radius:12px; overflow:hidden;">
 
     <!-- HEADER -->
     <div style="
@@ -108,7 +137,7 @@ def render_dashboard():
         
     with column2:
         st.markdown(f'''
-                        <div style="background-color:{Cores.CINZA_30}; border-radius:12px; overflow:hidden;">
+                        <div style="background-color:{Cores.VERDE_CLARO_70}; border-radius:12px; overflow:hidden;">
 
     <!-- HEADER -->
     <div style="
@@ -141,7 +170,7 @@ def render_dashboard():
 
 @page("Transações")
 def render_transacoes():
-    st.header("Transações")
+    st.header("📒Transações")
     
     st.header('Amount per counterparty')    
     st.dataframe(Extracted_Data.grouped_df)
@@ -153,8 +182,8 @@ def render_transacoes():
 @page("Configurações")
 def render_config():
     
-    st.header("Configurações")
-    st.toggle("Tema escuro", key="cfg_dark")
+    st.header("⚙️Configurações")
+    st.toggle("🌙Tema escuro", key="cfg_dark")
     # atualização imediata (sem botão)
     st.text_input("Nome do perfil", key="username")
     
